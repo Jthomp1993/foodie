@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>Home</h1>
+      <h1 className="test">            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium aut minima doloribus, tempore voluptatem. Expedita sint nam maxime facere facilis asperiores accusamus libero ab, nesciunt ipsam. Nulla, neque veritatis.</h1>
     </>
   )
 }
