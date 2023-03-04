@@ -1,16 +1,19 @@
 import Head from "next/head";
 import styled from "styled-components";
+import Navbar from "./Navbar";
 
 const StyledLayout = styled.div`
 
-    padding: 0px 15px;
+    .layout__container {
+        padding: 100px 15px;
 
-    @media (min-width: 768px) {
-        padding: 0px 25px;
-    }
+        @media (min-width: 768px) {
+            padding: 100px 25px;
+        }
 
-    @media (min-width: 1024px) {
-        padding: 0px 40px;
+        @media (min-width: 1024px) {
+            padding: 100px 40px;
+        }
     }
 
 `;
@@ -23,8 +26,12 @@ const Layout = ({ title, keywords, description, children }) => {
             <meta name='keywords' keywords={keywords} />
             <meta name='description' keywords={description} />
         </Head>
-      
-      { children }
+
+        <Navbar />
+        
+        <div className="layout__container">
+            { children }
+        </div>
     </StyledLayout>
   )
 }
