@@ -8,6 +8,8 @@ const StyledNavbar = styled.nav`
     justify-content: space-between;
     height: 100px;
     padding: 0px 15px;
+    z-index: 10;
+    mix-blend-mode: difference;
 
     @media (min-width: 768px) {
         padding: 0px 25px;

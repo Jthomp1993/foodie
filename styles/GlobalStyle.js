@@ -19,13 +19,14 @@ const GlobalStyle = createGlobalStyle`
     }
     html, body{
         width: 100%;
+        overscroll-behavior: none;
     }
     body {
         position: relative;
         margin: 0;
         padding: 0;
         height: 100%;
-        min-height: 150vh;
+        min-height: 300vh;
         background-color: var(--dark);
         overflow-x: hidden;
         -moz-osx-font-smoothing: grayscale;

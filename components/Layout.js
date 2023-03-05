@@ -5,14 +5,14 @@ import Navbar from "./Navbar";
 const StyledLayout = styled.div`
 
     .layout__container {
-        padding: 100px 15px;
+        padding: 0px 15px;
 
         @media (min-width: 768px) {
-            padding: 100px 25px;
+            padding: 0px 25px;
         }
 
         @media (min-width: 1024px) {
-            padding: 100px 40px;
+            padding: 0px 40px;
         }
     }
 
@@ -29,9 +29,8 @@ const Layout = ({ title, keywords, description, children }) => {
 
         <Navbar />
         
-        <div className="layout__container">
-            { children }
-        </div>
+        { children }
+        
     </StyledLayout>
   )
 }
