@@ -1,10 +1,10 @@
-
+import Layout from "@/components/Layout";
 
 function RestarauntsPage() {
   return (
-    <div>
+    <Layout>
       <h1>My Restaraunts</h1>
-    </div>
+    </Layout>
   )
 }
 

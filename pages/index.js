@@ -7,9 +7,7 @@ import { gsap } from 'gsap';
 export default function Home() {
 
     useEffect(() => {
-        const wrapper = document.querySelector(".wrapper");
         const boxes = gsap.utils.toArray(".loop__one");
-
         const loop = horizontalLoop(boxes, {paused: true, draggable: true });
 
         let progressWrap = gsap.utils.wrap(0, 1);
@@ -29,9 +27,7 @@ export default function Home() {
     },[]);
 
     useEffect(() => {
-        const wrapper = document.querySelector(".wrapper");
         const boxes = gsap.utils.toArray(".loop__two");
-
         const loop = horizontalLoop(boxes, {paused: true, draggable: true });
 
         let progressWrap = gsap.utils.wrap(0, 1);

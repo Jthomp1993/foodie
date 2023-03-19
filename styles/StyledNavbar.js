@@ -59,6 +59,7 @@ const StyledNavbar = styled.nav`
 
             .icon {
                 font-size: 22px;
+                margin-left: 1rem;
             }
         }
 
@@ -81,10 +82,6 @@ const StyledNavbar = styled.nav`
             background-color: var(--white);
             transition: .6s;
             transform-origin: center;
-        }
-
-        @media (min-width: 768px) {
-            display: none;
         }
     }
 
