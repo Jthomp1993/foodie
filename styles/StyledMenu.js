@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-const StyledMenu = styled.div`
+const StyledMenu = styled.div.attrs({
+    className: 'menu__container',
+})`
     position: fixed;
     top: 0;
     left: 0;

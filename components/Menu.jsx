@@ -95,7 +95,7 @@ const Menu = (props) => {
     
 
   return (
-    <StyledMenu ref={menuRef}>
+    <StyledMenu style={{ pointerEvents: 'none' }}  ref={menuRef}>
         <svg className="transition" viewBox="0 0 100 100" preserveAspectRatio="none">
             <path className="path" fill="#E76D67" vectorEffect="non-scaling-stroke"
             d={d} />

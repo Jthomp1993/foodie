@@ -4,6 +4,7 @@ import img from "@/public/assets/liquid.jpg";
 const StyledHome = styled.div`
 
     .home__hero {
+        position: relative;
         height: 100vh;
         width: 100%;
         background-color: var(--pink);
@@ -67,6 +68,61 @@ const StyledHome = styled.div`
         h2 {
             margin: 0;
             line-height: 0.9;
+        } 
+    }
+
+    .info__wrapper {
+        margin-top: 10rem;
+        font-family: var(--clash-semibold);
+        color: var(--white);
+
+        h2 {
+            font-size: clamp(8px, 7vw, 48px);
+            line-height: 0.85;
+            text-indent: 5rem;
+        }
+
+        .info__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-top: 4rem;
+
+            @media (min-width: 768px) {
+                flex-direction: row;
+                margin-right: 4rem;
+                margin-top: 5rem;
+            }
+
+            .info__item:nth-of-type(1) {
+                font-size: clamp(8px, 7vw, 32px);
+                color: var(--white);
+                line-height: 0.9;
+                
+
+                @media (min-width: 768px) {
+                    margin-right: 2rem;
+                    max-width: 250px;
+                }
+
+                h4 {
+                    margin: 0;
+                }
+            }
+
+            .info__item:nth-of-type(2) {
+                font-family: var(--clash-regular);
+                
+                
+                @media (min-width: 768px) {
+                    max-width: 375px;
+
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+
         }
         
     }

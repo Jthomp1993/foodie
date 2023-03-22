@@ -14,6 +14,8 @@ const variables = css`
         --clash-semibold: 'Clash-Semibold', sans-serif;
         --clash-bold: 'Clash-Bold', sans-serif;
 
+        --max-width: 1440px;
+
     }
 
 `;

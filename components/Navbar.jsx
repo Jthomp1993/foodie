@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import StyledNavbar from "@/styles/StyledNavbar";
 import Link from "next/link";
 import Menu from './Menu';
