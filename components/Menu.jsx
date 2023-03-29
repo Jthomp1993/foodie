@@ -7,10 +7,11 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Menu = (props) => {
     const [toggle, setToggle] = useState(false);
+    const [d, setD] = useState("M 0 100 L 100 100 100 100 0 100 C 0 0, 0 0, 0 100");
     const animateRef = useRef();
     const menuRef = useRef();
     const elementRef = useRef();
-    const [d, setD] = useState("M 0 100 L 100 100 100 100 0 100 C 0 0, 0 0, 0 100");
+    
 
     useEffect(() => {
         const button = document.querySelector('.menu__toggle');
@@ -95,7 +96,7 @@ const Menu = (props) => {
     
 
   return (
-    <StyledMenu style={{ pointerEvents: 'none' }}  ref={menuRef}>
+    <StyledMenu ref={menuRef}>
         <svg className="transition" viewBox="0 0 100 100" preserveAspectRatio="none">
             <path className="path" fill="#E76D67" vectorEffect="non-scaling-stroke"
             d={d} />
@@ -104,7 +105,7 @@ const Menu = (props) => {
         <ul className='menu__list active'>
             <li>
                 <Link className='menu__link' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
-                href='/restaraunts'>
+                href='/eat'>
                     <div>
                     EAT <BsArrowRight className='arrow' />
                     </div>
@@ -112,19 +113,19 @@ const Menu = (props) => {
             </li>
             <li>
                 <Link ref={elementRef} className='menu__link' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
-                href='/restaraunts'>DRINK <BsArrowRight className='arrow' /></Link>
+                href='/drink'>DRINK <BsArrowRight className='arrow' /></Link>
             </li>
             <li>
                 <Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
-                className='menu__link' href='/restaurants'>REVIEW <BsArrowRight className='arrow' /></Link>
+                className='menu__link' href='/review'>REVIEW <BsArrowRight className='arrow' /></Link>
             </li>
             <li>
                 <Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
-                className='menu__link' href='/restaurants'>ABOUT <BsArrowRight className='arrow' /></Link>
+                className='menu__link' href='/about'>ABOUT <BsArrowRight className='arrow' /></Link>
             </li>
             <li>
                 <Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
-                className='menu__link' href='/restaurants'>PROFILE <BsArrowRight className='arrow' /></Link>
+                className='menu__link' href='/profile'>PROFILE <BsArrowRight className='arrow' /></Link>
             </li>
             <li>
                 <Link onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 

@@ -1,5 +1,6 @@
 
-function ReviewPage() {
+
+const ReviewPage = () => {
   return (
     <div>
       <h1>What would you like to review?</h1>

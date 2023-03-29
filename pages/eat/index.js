@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 
-function RestarauntsPage() {
+function EatPage() {
   return (
     <Layout>
       <h1>My Restaraunts</h1>
@@ -8,4 +8,4 @@ function RestarauntsPage() {
   )
 }
 
-export default RestarauntsPage;
+export default EatPage;
