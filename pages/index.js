@@ -3,8 +3,11 @@ import Layout from "@/components/Layout"
 import StyledHome from "@/styles/StyledHome";
 import horizontalLoop from '@/lib/utils/horizontalLoop';
 import { gsap } from 'gsap';
+import { API_URL } from '@/config';
 
-export default function Home() {
+export default function Home({ data }) {
+
+    console.log(data); 
 
     useEffect(() => {
         const boxes = gsap.utils.toArray(".loop__one");
@@ -100,4 +103,15 @@ export default function Home() {
     </StyledHome>
     </>
   )
+}
+
+
+export async function getStaticProps() {
+    const res = await fetch(`${API_URL}/api/eat`);
+    const data = await res.json();
+
+    return {
+        props: { data },
+        revalidate: 1
+    }
 }
