@@ -101,7 +101,10 @@ export default function Home({ eatData }) {
             </div>
 
             <div className="featured__container">
-                <h2 className='featured__heading'>EAT: FEATURED</h2>
+                <div className="featured__flex">
+                    <h2 className='featured__heading bold'>EAT:</h2>
+                    <h2 className='featured__heading light'>FEATURED</h2>
+                </div>
 
                 {eatData.length === 0 && (
                     <h4 className='featured__msg'>Sorry, no places to eat at the moment.</h4>

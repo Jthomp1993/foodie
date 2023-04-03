@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import StyledFoodieItem from "@/styles/StyledFoodieItem";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +13,7 @@ const FoodieItem = ({ data }) => {
             <div className="item__wrapper">
                 <div className="content">
                     <div className="img__wrapper">
-                        <Image src={data.image} alt={data.name} width={250} height={180} />
+                        <Image src={data.image ? data.image : '/images/eat/dishoom.jpg'} alt={data.name} width={200} height={150} />
                         <div className="img__overlay"></div>
                     </div>
                     <div className="info">

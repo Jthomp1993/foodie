@@ -83,8 +83,12 @@ const StyledFoodieItem = styled.div.attrs({
     }
 
     .arrow {
+        overflow: hidden;
+        padding-left: 5px;
+
         svg {
             font-size: clamp(24px, 10vw, 78px);
+            transition: .5s;
         }
     }
 

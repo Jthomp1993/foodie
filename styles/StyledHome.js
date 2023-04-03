@@ -133,10 +133,22 @@ const StyledHome = styled.div`
             margin-top: 10rem;
         }
 
+        .featured__flex {
+            display: flex;
+        }
+
         .featured__heading {
             color: var(--white);
-            font-family: var(--clash-light);
             font-size: clamp(7px, 7vw, 32px);
+        }
+
+        .featured__heading:nth-of-type(1) {
+            font-family: var(--clash-bold);
+        }
+
+        .featured__heading:nth-of-type(2) {
+            font-family: var(--clash-light);
+            margin-left: 12px;
         }
 
         h4 {
@@ -154,6 +166,10 @@ const StyledHome = styled.div`
 
     .foodie__item:hover {
         border-bottom: 1px solid var(--white);
+
+        @media (min-width: 768px) {
+            padding: 0 2.5rem;
+        }
 
         .color {
             color: var(--white);
