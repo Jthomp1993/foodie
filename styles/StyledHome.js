@@ -123,8 +123,45 @@ const StyledHome = styled.div`
                 }
             }
 
+        } 
+    }
+
+    .featured__container {
+        margin-top: 5rem;
+
+        @media (min-width: 768px) {
+            margin-top: 10rem;
         }
-        
+
+        .featured__heading {
+            color: var(--white);
+            font-family: var(--clash-light);
+            font-size: clamp(7px, 7vw, 32px);
+        }
+
+        h4 {
+            font-family: var(--clash-regular);
+            font-size: clamp(8px, 5vw, 18px);
+            color: var(--white);
+
+        }
+    }
+
+    .color {
+        color: var(--dark-grey);
+        transition: .5s;
+    }
+
+    .foodie__item:hover {
+        border-bottom: 1px solid var(--white);
+
+        .color {
+            color: var(--white);
+        }
+
+        .img__overlay {
+            background-color: rgba(0,0,0,0);
+        }
     }
 `;
 

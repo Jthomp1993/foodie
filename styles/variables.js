@@ -6,7 +6,8 @@ const variables = css`
         --dark: #131313;
         --white: #FFFFFF;
         --pink: #FF93AD;
-        --grey: #484848;
+        --grey: #8C8C8C;
+        --dark-grey: #484848;
 
         --clash-light: 'Clash-Light', sans-serif;
         --clash-regular: 'Clash-Regular', sans-serif;

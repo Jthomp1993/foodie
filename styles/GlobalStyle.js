@@ -35,6 +35,10 @@ const GlobalStyle = createGlobalStyle`
             word-break: break-all;
         }
     }
+
+    a {
+        text-decoration: none;
+    }
 `;
 
 export default GlobalStyle;

@@ -24,7 +24,9 @@ const Navbar = () => {
         </div>
     </StyledNavbar>
     
+    {/** 
     <Menu isOpen={isOpen} />
+    */}
     </>
   )
 }

@@ -5,6 +5,8 @@
             "name": "Dishoom",
             "slug": "dishoom",
             "address": "32 Bridge St, Manchester M3 3BT",
+            "location": "Manchester",
+            "cuisine": "Indian",
             "heading": "Dishoom pays homage to the Irani cafés and the food of all Bombay.",
             "content": "THE OLD IRANI CAFÉS have almost disappeared. Their faded elegance welcomed all: rich businessmen,taxi-wallas and courting couples. Students had breakfast, families dined, lawyers read their briefs and writers found their characters. Fans turned slowly. Bentwood chairs were reflected in stained mirrors, next to sepia family portraits. \nOpened early last century by Zoroastrian immigrants from Iran, there were almost four hundred cafés at their peak in the 1960s. Now, fewer than thirty remain. These cafés broke down barriers by bringing people together over food and drink. They were the first places in Bombay where people of any culture, class or religion could take cool refuge from the street with a cup of chai, a simple snack or a hearty meal. People from all walks of life shared tables, rubbed shoulders and broke bread together. Shared spaces beget shared experiences, and Bombay was more open and welcoming for the existence of these cafés. Dishoom pays homage to the Irani cafés and the food of all Bombay.",
             "image": "/images/eat/dishoom.jpg"
@@ -15,6 +17,8 @@
             "name": "The Coach",
             "slug": "the-coach",
             "address": "3 West St, Marlow SL7 2LS",
+            "location": "Marlow",
+            "cuisine": "British",
             "heading": "The Coach is a welcoming British pub in the heart of Marlow, serving simple, classic and inventive food.",
             "content": "Situated in the heart of Marlow, The Coach is a one star Michelin pub brought to you by the team behind The Hand and Flowers. Led by head chef Sarah Hayward, our aim is to offer a flexible, relaxed and accessible pub where everybody is welcome. Here at The Coach we are open five days a week, from early morning through to late evening, serving breakfast, lunch and dinner with simple food offerings and refreshments to fill the gaps in between. Our main menu offers a range of small, tapas-style dishes, perfect for sharing (or pigging out alone).",
             "image": "/images/eat/the-coach.jpeg"
