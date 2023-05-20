@@ -157,6 +157,11 @@ const StyledHome = styled.div`
             color: var(--white);
 
         }
+
+        .featured__link {
+            float: right;
+            margin-top: 3rem;
+        }
     }
 
     .color {

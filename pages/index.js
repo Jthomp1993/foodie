@@ -5,8 +5,9 @@ import StyledHome from "@/styles/StyledHome";
 import horizontalLoop from '@/lib/utils/horizontalLoop';
 import { gsap } from 'gsap';
 import { API_URL } from '@/config';
+import Link from 'next/link';
 
-export default function Home({ eatData }) {
+export default function Home({ eatData, drinkData }) {
 
     useEffect(() => {
         const boxes = gsap.utils.toArray(".loop__one");
@@ -113,6 +114,33 @@ export default function Home({ eatData }) {
                 {eatData.map((eat) => (
                     <FoodieItem key={eat.id} data={eat} />
                 ))}
+
+                {eatData.length > 0 && (
+                    <div className="featured__link">
+                        <Link className='btn__secondary' href='/eat'>View All</Link>
+                    </div>   
+                )}
+            </div>
+
+            <div className="featured__container">
+                <div className="featured__flex">
+                    <h2 className='featured__heading bold'>DRINK:</h2>
+                    <h2 className='featured__heading light'>FEATURED</h2>
+                </div>
+
+                {eatData.length === 0 && (
+                    <h4 className='featured__msg'>Sorry, no places to eat at the moment.</h4>
+                )}
+
+                {drinkData.map((drink) => (
+                    <FoodieItem key={drink.id} data={drink} />
+                ))}
+
+                {eatData.length > 0 && (
+                    <div className="featured__link">
+                        <Link className='btn__secondary' href='/drink'>View All</Link>
+                    </div>   
+                )}
             </div>
         </div>
 
@@ -124,11 +152,14 @@ export default function Home({ eatData }) {
 
 
 export async function getStaticProps() {
-    const res = await fetch(`${API_URL}/api/eat`);
-    const eatData = await res.json();
+    const eatRes = await fetch(`${API_URL}/api/eat`);
+    const eatData = await eatRes.json();
+
+    const drinkRes = await fetch(`${API_URL}/api/drink`);
+    const drinkData = await drinkRes.json();
 
     return {
-        props: { eatData },
+        props: { eatData, drinkData },
         revalidate: 1
     }
 }

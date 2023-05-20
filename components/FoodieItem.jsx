@@ -22,10 +22,12 @@ const FoodieItem = ({ data }) => {
                             <h5 className='info__heading color'>Location:</h5>
                             <p className='color'>{data.location}</p> 
                         </div>
-                        <div className="info__item">
-                            <h5 className='color'>Cuisine:</h5>
-                            <p className='color'>{data.cuisine}</p> 
-                        </div>
+                        {data.cuisine && (
+                            <div className="info__item">
+                                <h5 className='color'>Cuisine:</h5>
+                                <p className='color'>{data.cuisine}</p> 
+                            </div>
+                        )}
                     </div>
                 </div>
                 <div className="arrow">

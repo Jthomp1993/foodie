@@ -1,0 +1,38 @@
+{
+    "drink": [
+        {
+            "id": "1",
+            "name": "Number Twenty Two",
+            "slug": "number-twenty-two",
+            "address": "22 Coniscliffe Rd, Darlington DL3 7RG",
+            "location": "Darlington",
+            "country": "United Kingdom",
+            "heading": "Town-centre ale house with a passion for cask beer and winner of many CAMRA awards.",
+            "content": "Number twenty two is a cherished town-centre ale house with a deep-seated passion for cask beer and a record of winning many CAMRA awards. The pub prides itself on offering an impressive selection of ales, which are served from up to sixteen handpumps, including two real ciders, a stout or porter, and ten draught European beers. The interior boasts huge curved windows, stained glass panels, and a high ceiling, creating an airy and spacious atmosphere that invites you to sit and stay awhile. The pub also houses an 'in-house nano distillery' and 'micro-brewery' that produces Gin, Vodka, and Fine Ale, adding to the already vast selection of drinks on offer. If you're feeling peckish, lunchtime snacks and sandwiches are available. Additionally, the pub is the home of Village Brewer beers, including Zetland Pale, which is commissioned from Hambleton by the licensee. Number twenty two is a must-visit for anyone seeking a quintessential pub experience that delivers on all fronts.",
+            "image": "/images/drink/twenty-two.jpeg"
+
+        },
+        {
+            "id": "2",
+            "name": "The Keg",
+            "slug": "the-keg",
+            "address": "12 Oakfield Rd, Wooburn Green, Bourne End SL8 5QN",
+            "location": "Bourne End",
+            "country": "United Kingdom",
+            "heading": "Keg Craft Beer Tasting Bar in Bourne End.",
+            "content": "KEG is a craft beer & gin tasting bar owned by us; Carl & Kim. We first got into craft beer around 2013 whilst travelling around the country and drinking this great new style of beer that we couldn’t buy locally. It wasn't too long before we decided to bring the mountain to Mohammed and build KEG in the heart of Bourne End, Buckinghamshire. Regarding our gin, Kim looks for gins that aren’t readily available in regular bars or supermarkets, that truly excite the palate. There are some very good craft beer breweries and gin distillers in the area, most of which we buy from regularly, and our stock rotates accordingly, to keep the experience exciting and fresh. With the beer selection, we look for something that isn’t owned by a 'macro brewery' but is a privately-owned 'micro brewery'. We're always looking for something exciting that may or may not be unfiltered or unfined; maybe something with an interesting hop combination. A regular customer will expect to see me re-writing and arranging our beer boards with the latest additions of the week. To see what's on this week check out our home page. Tap 1 is our regular pilsner, Taps 2 & 3 are our seasonal selections (stouts & porters in Winter / saisons & farmhouse ales in Summer). Taps 4,5 and 6 host our stock of IPAs, whilst Taps 7 and 8 feature our local cask ales. Tap 9 is not to be sniffed at. It's our premium featured tap.",
+            "image": "/images/drink/the-keg.jpeg"
+        },
+        {
+            "id": "3",
+            "name": "The Last Post",
+            "slug": "the-last-post",
+            "address": "30 Cold Bath Rd, Harrogate HG2 0NA",
+            "location": "Harrogate",
+            "country": "United Kingdom",
+            "heading": "The Last Post, Harrogate. A dog friendly bar/socialhouse situated on Cold Bath Road.",
+            "content": "The Last Post is a warm and welcoming pub located in the heart of Harrogate, North Yorkshire. Steeped in history and character, this pub is the perfect place to unwind after a long day or catch up with friends over a pint. The pub's decor is a beautiful blend of traditional and contemporary elements, creating a unique and inviting ambiance. The Last Post boasts a wide range of craft beers, real ales, and spirits, as well as an impressive selection of wines from around the world. The food menu is equally enticing, featuring classic pub fare with a modern twist, made with locally sourced ingredients. Whether you're looking to indulge in a hearty meal or enjoy a few drinks with friends, The Last Post has got you covered. The pub also hosts regular events, such as live music performances and quiz nights, adding to the lively and convivial atmosphere. With its welcoming staff, cozy interior, and superb selection of drinks and food, The Last Post is a must-visit for anyone in Harrogate.",
+            "image": "/images/drink/the-last-post.jpeg"
+        }
+    ]
+}
