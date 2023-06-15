@@ -42,7 +42,7 @@ const StyledEatPage = styled.div`
             h2 {
                 font-family: var(--clash-regular);
                 color: var(--white);
-                font-size: clamp(32px, 7vw, 96px);
+                font-size: clamp(30px, 7vw, 96px);
                 line-height: 1;
                 margin: 0;
             }
